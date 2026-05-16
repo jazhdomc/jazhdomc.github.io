@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JazhdoMC</title>
+    <link rel="icon" sizes="64x64" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAB7klEQVR4Xu1aQU7EMAxsJa572OcgfoAEH+LMh0BiX4B4Tg97RSpqUVCw4thx3JSS6aVSlTjO2J6xpY7DZZqHjp8RACADUALggI45cAAJQgWgAlABqABUoGMEIIOQQcggZBAy2LEIYBiCDGpkcP44r1Uy3k4/1RK+0fLRrAl7wtqU/WUN/c6dSX2L9+b8W/dZAMg5EjtTui4GrxQAy7nVAEgOp8g1BsWaAVyWUXscKPH+qgwoBSB1+VSkA3BcCUjnakuqOgM4+aQO0prkLiDZ015Mu64ZAFzkaaR3B0CLXK6Oc2qRyow/VQLai9UAlSNGS22X+kwD9IsE95YtLQDaUpHWJTmgpMHxdrjGnpZY6bo1A+a78/D4dB1enk9dvV/vP787wYe3m+4uvwR7fJ90rTBXS7nvOemTGiKpf7f4w/KBZhawHEi5JNWmWvt3iz+7AyAxslZaPS+v7gQth0qSGmyWDkQWX3J7VMOQ5dA4oqly0A46lrNL9jQBINXudgcAjYoWAI4bSqK8ewlo+v9/S4LaCVAiTc5ObSY04wCpBGKeOHQjtPVcsfTvno97Bmw9Vyz9u+fjDoCncy1sAYCthqEW0fM4AxmADMAvMvhFBr/IeLDpUW1ABaACUAGoAFTgqAzu4TdUACoAFehbBb4Ah0sfrk5vNL0AAAAASUVORK5CYII=">
+    <style>
+/* Root Elements */
+html {
+    width: 100%;
+    height: 100%;
+}
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+    padding: 1vw;
+    --font-size: 1vw;
+}
+header a#toptitle {
+    font-size: var(--font-size);
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+header a#toptitle:hover {
+    cursor: pointer;
+}
+
+/* Main */
+div#main {
+    margin: 1vw;
+    flex: 1;
+}
+
+/* Footer */
+footer {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <a href="/" id="toptitle">JazhdoMC</a>
+    </header>
+    <div id="main">
+        <h1 id="home">Home</h1>
+        <p>Welcome to JazhdoMC's official website!</p>
+        <h1 id="join">Join</h1>
+        <h2>IPs</h2>
+        <ul>
+            <li>Eagler: wss://jzd.ddns.net:3000 <button onclick="navigator.clipboard.writeText(`wss:\/\/jzd.ddns.net:3000`)">Copy</button></li>
+            <li>Java: jzd.ddns.net:3000 <button onclick="navigator.clipboard.writeText(`jzd.ddns.net:3000`)">Copy</button></li>
+            <li>Bedrock: Not yet supported <button onclick="navigator.clipboard.writeText(`Not yet supported`)">Copy</button></li>
+        </ul>
+        <h2>Discord</h2>
+        <p><a href="https://discord.gg/X6Ab2B35n4" target="_blank">Join the discord server</a> for the latest features and announcements. There will also be events sometimes that are only announced in the discord.</p>
+        <h1>Staff</h1>
+        <p>
+            Owner/Developer: Jazhdo<br>
+            (More details on the discord server)
+        </p>
+        <h1 id="changelog">Changelog</h1>
+        <p>
+            <b>v0.1.0 (5/9/2026)</b><br>
+            Made a simple website with server ip addresses and a discord join link.
+        </p>
+    </div>
+    <footer>
+        <h2>v0.1.0 - JazhdoMC</h2>
+    </footer>
+</body>
+</html>
