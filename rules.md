@@ -10,7 +10,7 @@ Format: Rule #.# (ex. Rule 1.2)
 	8. Automatic killing (automatically killing any mobs or players) is not allowed
 	9. Autoclickers are not allowed except for farms and loading chunks
 	10. Hacking into the console is not allowed
-2. Abuse
+2. Abuse (includes corrupt behavior)
 	1. Moderator ability abuse is not allowed
 	2. Role or name abuse is not allowed
 	3. Impersonation is not allowed
@@ -20,9 +20,9 @@ Format: Rule #.# (ex. Rule 1.2)
 	2. Talking about explicit content is not allowed unless it is a acceptable joke
 	3. Illegal activity according to real life law is not allowed
 	4. Advertising for other servers is not allowed
-## Punishments
+	5. Any sort of child predation is not allowed
+### Punishments
 Format: #.(Type.)&lt;Offense count&gt;
-
 Any offense that is the 2nd or later should be discussed about with mods and/or admins
 1. Hacks
 	- 1 - Warning
@@ -31,7 +31,7 @@ Any offense that is the 2nd or later should be discussed about with mods and/or 
 	- 4 - Ban for 3 days
 	- 5-9 - Ban for a week
 	- 10+ - Discuss with mods and admins
-2. Abuse (includes corrupt behavior)
+2. Abuse
 	- Moderator
 		- 1 - Warning
 		- 2 - Warning & More supervision
@@ -61,3 +61,7 @@ Any offense that is the 2nd or later should be discussed about with mods and/or 
 	- Advertising
 		- 1-5 - Warning
 		- 6+ - Ban for a day
+	- Child predation
+		- 1 - Warning
+		- 2 - Ban for a week
+		- 3+ - Ban for a month
